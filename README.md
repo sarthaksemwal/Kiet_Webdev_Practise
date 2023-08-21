@@ -33,10 +33,10 @@ To begin exploring the HTML practice files and experimenting with the code, foll
 
 1. Clone the repository to your local machine using the following command:
    ```
-   git clone https://github.com/your-username/html-practice.git
+   git clone https://github.com/sarthaksemwal/Kiet_Webdev_Practise.git
    ```
 
-2. Navigate to the project directory using `cd html-practice`.
+2. Navigate to the project directory using `cd Kiet_Webdev_Practise`.
 
 3. Choose a practice file by navigating to its respective folder:
    ```
