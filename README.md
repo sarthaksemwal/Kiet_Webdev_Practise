@@ -83,6 +83,4 @@ This repository is licensed under the [MIT License](LICENSE). You are welcome to
 Thank you for exploring the HTML Practice Repository! I hope these practice files provide you with a hands-on learning experience and contribute to your understanding of HTML. If you have any questions, feedback, or suggestions, please feel free to get in touch.
 
 Happy coding!
-Your Name
-Your Contact Info
-Date
+
