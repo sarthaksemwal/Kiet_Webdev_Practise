@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    var jsonobj = [
+  {
+    "name": "sarthak",
+    "umar": "21",
+    "gender": "M"
+  },
+  {
+    "name": "Ram",
+    "umar": "3",
+    "gender": "M"
+  },
+  {
+    "name": "Sita",
+    "umar": "6",
+    "gender": "F"
+  }
+];
+
+// Loop through the jsonobj array
+for (var i = 0; i < jsonobj.length; i++) {
+  var person = jsonobj[i];
+  document.write("Name: " + person.name);
+  document.write("Age: " + person.umar);
+  document.write("Gender: " + person.gender);
+  document.write("-----------------------");
+}
+
+    
+  
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
