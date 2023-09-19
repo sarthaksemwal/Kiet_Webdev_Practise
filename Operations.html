@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function calculate(operation) {
+        // Get the values from the input fields and convert them to numbers
+        const num1 = parseFloat(document.querySelector('.text1').value);
+        const num2 = parseFloat(document.querySelector('.text2').value);
+
+        // Check if the input values are valid numbers
+        if (isNaN(num1) || isNaN(num2)) {
+            alert("Enter valid numbers");
+        } else {
+            // Perform the specified operation
+            let result;
+            switch (operation) {
+                case '+':
+                    result = num1 + num2;
+                    break;
+                case '-':
+                    result = num1 - num2;
+                    break;
+                case '*':
+                    result = num1 * num2;
+                    break;
+                default:
+                    result = "Invalid operation";
+            }
+            alert(result);
+        }
+    }
+</script>
+<body>
+    <form action="">
+        <label for="">Enter the first no:</label><br>
+        <input type="text" class="text1"><br><br>
+        <label for="">Enter the Second no:</label><br>
+        <input type="text" class="text2"><br><br>
+        <!-- Call the calculate function with the specified operation -->
+        <input type="button" name="" value="+" onclick="calculate('+')">
+        <input type="button" name="" value="-" onclick="calculate('-')">
+        <input type="button" name="" value="*" onclick="calculate('*')">
+    </form>
+</body>
+</html>
