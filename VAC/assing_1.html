@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #Avatar1{
+        height: 50px;
+        width: 50px;
+        background-color: red;
+        position: relative;
+
+    }
+
+    p{
+        color: white;
+    }
+
+    #Avatar1 p{
+       position: absolute;
+       left: 3px;
+    }
+
+    #Avatar2{
+        height: 50px;
+        width: 50px;
+        background-color:blue;
+        position: relative;
+
+    }
+    #Avatar2 p{
+        position: absolute;
+        left: 3px;
+    }
+    
+
+    #Avatar3{
+        height: 50px;
+        width: 50px;
+        background-color:black;
+        position: relative;
+
+    }
+
+    #Avatar3 p{
+        position: absolute;
+        left: 3px;
+    }
+</style>
+<body>
+    
+    <table border="2">
+    <caption>Table members</caption>
+    <tr>
+        <td>Group</td>
+        <td>Avatar</td>
+        <td>Name</td>
+        <td>Email</td>
+        <td>Character</td>
+        <td>Profile</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Ninja</td>
+        <td><div id="Avatar1"><p>50x50</p></div></td>
+        <td>Osama Mohamad</td>
+        <td>
+     o1@nn.sa
+        <hr>
+        o2@nn.sa
+    </td>
+        <td>&copy;</td>
+        <td><a href="#">Profile</a></td>
+
+    </tr>
+    <tr>
+        <td><div id="Avatar2"><p>50x50</p></div></td>
+        <td>Shady Nabil</td>
+        <td>s@nn.sa</td>
+        <td>&trade;</td>
+        <td><a href="#">Profile</a></td>
+
+    </tr>
+    <tr>
+        <td>Monsters</td>
+        <td><div id="Avatar3"><p>50x50</p></div></td>
+        <td>Mohamed Ibrahim</td>
+        <td>m@nn.sa</td>
+        <td>&reg;</td>
+        <td><a href="#">Profile</a></td>
+
+    </tr>
+    <tr>
+        <td colspan="5">Total Members</td>
+        <td>3</td>
+    </tr>
+</table>
+    
+</body>
+</html>
